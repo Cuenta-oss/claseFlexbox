@@ -1,0 +1,149 @@
+/* ESTILOS HEADER */
+
+.headerPrincipal>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+/* ESTILOS CURSOS */
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+
+/* ESTILOS VIDEOS */
+
+.videoSobre>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre-sobre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.videoSobre__sobre-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoSobre-sobre-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ESTILOS MAPA DE CURSOS */
+.rodapePrincipal-navMap-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-navMap-list__back,
+.rodapePrincipal-navMap-list__front,
+.rodapePrincipal-navMap-list__frameworks,
+.rodapePrincipal-navMap-list__bancoDatos {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ESTILOS FOOTER */
+.rodapePrincipal-patrocinadores>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+@media (max-width:768px) {
+
+    /* ESTILOS HEADER */
+
+    .headerPrincipal>.container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+
+    /* ESTILOS CURSOS */
+
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+
+    /* ESTILOS VIDEOS */
+
+    .videoSobre>.container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .videoSobre-sobre {
+        width: 100%;
+    }
+
+    /* ESTILOS MAPA CURSOS */
+
+    .rodapePrincipal-navMap-list {
+        flex-direction: column;
+    }
+
+    /* ESTILOS FOOTER */
+    .rodapePrincipal-patrocinadores>.container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        width: 100%;
+    }
+
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+        align-items: center;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
+}
